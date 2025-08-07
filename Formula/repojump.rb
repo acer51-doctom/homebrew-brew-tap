@@ -6,6 +6,6 @@ class Repojump < Formula
   sha256 "f7503d48e015569155a5579d25af4dd57c3cb487e680ac9667c2178247002fac"
 
   def install
-    bin.install "RepoJump" => "repojump"
+    bin.install "repojump.sh" => "repojump"
   end
 end
